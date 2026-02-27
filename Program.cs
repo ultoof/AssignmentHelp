@@ -168,8 +168,9 @@ void ShowQuizTab()
     if (questions.Count > 0)
     {
         int Score = 0;
+        string prompt = questions.Count == 1 ? "Your one question quiz will now start." : $"Your quiz of {questions.Count} questions will now start.";
         Console.Clear();
-        Console.WriteLine($"Your quiz of {questions.Count} questions will now start. Your score is displayed afterwards.");
+        Console.WriteLine($"{prompt} Your score is displayed afterwards.");
         PressAnyKey();
 
         foreach (Question currentQuestion in questions)
