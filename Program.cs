@@ -43,10 +43,11 @@ void CheckForData()
     {
         string data = File.ReadAllText("Data");
         Question[] loadedQuestions = JsonConvert.DeserializeObject<Question[]>(data);
+        string questionText = loadedQuestions.Length > 1 ? "Questions" : "Question";
 
         Console.Clear();
         Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine($"Existing question data found, do you want to load it? ({loadedQuestions.Length} Questions) [y/n]");
+        Console.WriteLine($"Existing question data found, do you want to load it? ({loadedQuestions.Length} {questionText}) [y/n]");
         Console.ForegroundColor = ConsoleColor.White;
         string input = WaitForInput();
 
@@ -59,7 +60,7 @@ void CheckForData()
 
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"{loadedQuestions.Length} questions have been loaded!");
+            Console.WriteLine($"{loadedQuestions.Length} {questionText.ToLower()} have been loaded!");
             Console.ForegroundColor = ConsoleColor.White;
             PressAnyKey();
         }

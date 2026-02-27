@@ -15,3 +15,4 @@ C:\Development\VSProjects\AssignmentHelp\obj\Debug\net9.0\refint\AssignmentHelp.
 C:\Development\VSProjects\AssignmentHelp\obj\Debug\net9.0\AssignmentHelp.pdb
 C:\Development\VSProjects\AssignmentHelp\obj\Debug\net9.0\AssignmentHelp.genruntimeconfig.cache
 C:\Development\VSProjects\AssignmentHelp\obj\Debug\net9.0\ref\AssignmentHelp.dll
+C:\Development\VSProjects\AssignmentHelp\obj\Debug\net9.0\AssignmentHelp.sourcelink.json
