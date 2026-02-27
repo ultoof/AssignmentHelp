@@ -1,0 +1,17 @@
+C:\Development\VSProjects\AssignmentHelp\bin\Debug\net9.0\AssignmentHelp.exe
+C:\Development\VSProjects\AssignmentHelp\bin\Debug\net9.0\AssignmentHelp.deps.json
+C:\Development\VSProjects\AssignmentHelp\bin\Debug\net9.0\AssignmentHelp.runtimeconfig.json
+C:\Development\VSProjects\AssignmentHelp\bin\Debug\net9.0\AssignmentHelp.dll
+C:\Development\VSProjects\AssignmentHelp\bin\Debug\net9.0\AssignmentHelp.pdb
+C:\Development\VSProjects\AssignmentHelp\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Development\VSProjects\AssignmentHelp\obj\Debug\net9.0\AssignmentHelp.csproj.AssemblyReference.cache
+C:\Development\VSProjects\AssignmentHelp\obj\Debug\net9.0\AssignmentHelp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\VSProjects\AssignmentHelp\obj\Debug\net9.0\AssignmentHelp.AssemblyInfoInputs.cache
+C:\Development\VSProjects\AssignmentHelp\obj\Debug\net9.0\AssignmentHelp.AssemblyInfo.cs
+C:\Development\VSProjects\AssignmentHelp\obj\Debug\net9.0\AssignmentHelp.csproj.CoreCompileInputs.cache
+C:\Development\VSProjects\AssignmentHelp\obj\Debug\net9.0\Assignme.AE183829.Up2Date
+C:\Development\VSProjects\AssignmentHelp\obj\Debug\net9.0\AssignmentHelp.dll
+C:\Development\VSProjects\AssignmentHelp\obj\Debug\net9.0\refint\AssignmentHelp.dll
+C:\Development\VSProjects\AssignmentHelp\obj\Debug\net9.0\AssignmentHelp.pdb
+C:\Development\VSProjects\AssignmentHelp\obj\Debug\net9.0\AssignmentHelp.genruntimeconfig.cache
+C:\Development\VSProjects\AssignmentHelp\obj\Debug\net9.0\ref\AssignmentHelp.dll
