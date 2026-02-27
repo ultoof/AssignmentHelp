@@ -5,6 +5,7 @@ using Newtonsoft.Json;
 List<Question> questions = new List<Question>();
 
 //-- Functions
+// Opens the main menu of the program and writes out all the options.
 void OpenMainMenu()
 {
     Console.Clear();
@@ -14,6 +15,7 @@ void OpenMainMenu()
     Console.WriteLine("\n\n[1] Add new question\n[2] Start Quiz\n[3] Clear Questions\n[4] Exit");
 }
 
+// Waits for a user input with some fancy colors.
 string WaitForInput()
 {
     Console.ForegroundColor = ConsoleColor.DarkGray;
@@ -24,6 +26,7 @@ string WaitForInput()
     return inputedString;
 }
 
+// A method thats used when the user inputs something invalid.
 void ShowInvalidInput()
 {
     Console.Clear();
@@ -31,12 +34,14 @@ void ShowInvalidInput()
     Console.ReadKey();
 }
 
+// Prompts the user to press anykey and waits using ReadKey().
 void PressAnyKey()
 {
     Console.Write("\n> Press any key:");
     Console.ReadKey();
 }
 
+// Checks if the user has an existing Data file and prompts them to either load the data or not.
 void CheckForData()
 {
     if (File.Exists("Data"))
@@ -67,6 +72,7 @@ void CheckForData()
     }
 }
 
+// Shows the tab used for adding questions. Code allows user to add more questions.
 void ShowQuestionTab()
 {
     while (true)
@@ -108,6 +114,7 @@ void ShowQuestionTab()
     }
 }  
 
+// Shows the tab used for exiting the program. Asks the user if they want to save their data.
 void ShowExitTab()
 {
     Console.Clear();
@@ -133,6 +140,7 @@ void ShowExitTab()
     }
 }
 
+// Shows the clear question tab.
 void ShowClearQuestionsTab()
 {
     Console.Clear();
@@ -154,6 +162,7 @@ void ShowClearQuestionsTab()
     }
 }
 
+// Starts the quiz.
 void ShowQuizTab()
 {
     if (questions.Count > 0)
@@ -199,6 +208,7 @@ void ShowQuizTab()
     }
 }
 
+// Saves the users data to a folder named "Data".
 void SaveData()
 {
     string ConvertedData = JsonConvert.SerializeObject(questions);
