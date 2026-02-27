@@ -10,7 +10,7 @@ void OpenMainMenu()
 {
     Console.Clear();
     Console.ForegroundColor = ConsoleColor.Blue;
-    Console.Write("Assignment Helper v1.0");
+    Console.Write("Assignment Helper v1.1");
     Console.ForegroundColor = ConsoleColor.White;
     Console.WriteLine("\n\n[1] Add new question\n[2] Start Quiz\n[3] Clear Questions\n[4] Exit");
 }
